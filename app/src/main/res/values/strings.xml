@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_change_units">Change Units</string>
+    <string name="symbol_search">Symbol Search</string>
+    <string name="content_test">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="false">FB</string>
+    <string name="input_prefill"/>
+    <string name="network_toast">Uh-oh! This app requires an internet connection</string>
+    <string name="network_not_available">Network is unavailable at this time, please check to see if you are in airplane mode!!</string>
+    <string name="ok">OK</string>
+    <string name="symbol">Symbol</string>
+    <string name="quote">Quote</string>
+    <string name="change">Change</string>
+    <string name="title_activity_stock_details">Stock Hawk</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="stock_detail_title">Stock</string>
+    <string name="stock_detail_tab1">5DAYS</string>
+    <string name="stock_detail_tab2">2WEEKS</string>
+    <string name="stock_detail_tab3">1MONTH</string>
+    <string name="stock_detail_tab_header">NASDAQ: %1$s</string>
+    <string name="disagree">Cancel</string>
+    <string name="add">Add</string>
+    <string name="monthly">Monthly</string>
+</resources>

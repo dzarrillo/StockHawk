@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/stock_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/stock_name"
+        android:layout_alignLeft="@+id/stock_name"
+        android:layout_alignStart="@+id/stock_name"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:id="@+id/stock_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignTop="@+id/stock_name"
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp" />
+
+    <TextView
+        android:id="@+id/stock_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignBottom="@+id/stock_symbol"
+        android:layout_alignLeft="@+id/stock_price"
+        android:layout_alignStart="@+id/stock_price" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/monthly"
+        android:id="@+id/monthTextView"
+        android:layout_below="@+id/stock_symbol"
+        android:layout_alignLeft="@+id/stock_symbol"
+        android:layout_alignStart="@+id/stock_symbol"
+        android:layout_marginTop="39dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/monthTextView"
+
+        android:layout_marginTop="26dp"
+        android:id="@+id/frameLayout">
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/stock_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
