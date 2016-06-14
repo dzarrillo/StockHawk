@@ -68,7 +68,11 @@
             android:id="@+id/stock_chart"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp"
+            android:paddingStart="@dimen/activity_vertical_margin"
+            android:paddingEnd="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:padding="@dimen/activity_vertical_margin"
             android:visibility="invisible" />
 
     </FrameLayout>

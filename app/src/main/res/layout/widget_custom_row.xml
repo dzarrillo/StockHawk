@@ -41,6 +41,8 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/list_item_stock_change_horizontal_padding"
                 android:paddingLeft="@dimen/list_item_stock_change_horizontal_padding"
+                android:paddingEnd="@dimen/list_item_stock_change_horizontal_padding"
+                android:paddingStart="@dimen/list_item_stock_change_horizontal_padding"
                 android:paddingRight="@dimen/list_item_stock_change_horizontal_padding"
                 android:paddingTop="@dimen/list_item_stock_change_horizontal_padding" />
 

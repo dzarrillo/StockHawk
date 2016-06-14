@@ -15,6 +15,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         />
 
     <Button
@@ -25,5 +26,6 @@
         android:layout_below="@+id/textViewMessage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/network_not_available"/>
 </RelativeLayout>
